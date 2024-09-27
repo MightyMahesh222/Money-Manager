@@ -1,0 +1,59 @@
+/* Write your CSS here */
+* {
+  font-family: 'Roboto';
+}
+
+.moneyDiv {
+  display: flex;
+  margin: 2vh 0vh;
+  justify-content: space-between;
+}
+
+.balanceDiv1 {
+  display: flex;
+  background-color: #ecfccb;
+  border: 1px solid #84cc16;
+  padding: 2vh 3vh;
+  border-radius: 10px;
+  justify-content: space-between;
+}
+.balanceDiv2 {
+  display: flex;
+  background-color: #cffafe;
+  border: 1px solid #06b6d4;
+  padding: 2vh 3vh;
+  border-radius: 10px;
+  justify-content: space-between;
+}
+.balanceDiv3 {
+  display: flex;
+  background-color: #ede9fe;
+  border: 1px solid #7c3aed;
+  padding: 2vh 3vh;
+  border-radius: 10px;
+  justify-content: space-between;
+}
+img {
+  height: 6vh;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  padding-right: 1vh;
+  padding: 0vh 2vh;
+}
+.balance {
+  font-size: 11px;
+  padding-bottom: 5px;
+}
+
+.rupees {
+  font-size: 18px;
+  padding-top: 5px;
+  color: black;
+  font-weight: 500;
+}
+.money {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}

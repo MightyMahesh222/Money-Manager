@@ -1,0 +1,89 @@
+/* Write your CSS here */
+* {
+  font-family: 'Roboto';
+}
+.mainDiv {
+  display: flex;
+  flex-direction: column;
+  padding: 5vh;
+  box-shadow: 1px 2px 15px black;
+}
+.moneyManagerContainer {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+  width: 100%;
+  padding: 2vh 4vh;
+}
+span {
+  color: #0b69ff;
+  font-size: 12px;
+  font-weight: 600;
+}
+.name {
+  font-size: 20px;
+}
+.welcomePara {
+  font-size: 12px;
+}
+
+.detailsContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 1vh;
+}
+input,
+select {
+  padding: 4px;
+}
+label {
+  color: #7e858e;
+  padding: 3px;
+  font-size: 12px;
+}
+button {
+  border: none;
+  background-color: #0b69ff;
+  padding: 6px 12px;
+  outline: none;
+  color: #ffffff;
+  font-weight: 400;
+  border-radius: 5px;
+  font-size: 10px;
+  margin-left: 1vh;
+  margin-top: 1vh;
+  cursor: pointer;
+}
+ul {
+  list-style-type: none;
+}
+.TransactionContainer {
+  width: 42%;
+  padding: 2vh;
+  border: 1px solid #cbd5e1;
+  border-radius: 5px;
+}
+.h1 {
+  font-size: 14px;
+  color: #334155;
+  padding-left: 7px;
+}
+.Container {
+  display: flex;
+}
+.HistoryContainer {
+  border: 1px solid #cbd5e1;
+  margin-left: 5%;
+  width: 50%;
+  padding: 2vh;
+  border-radius: 7px;
+}
+
+.history {
+  border: 1px solid #cbd5e1;
+  padding: 0vh 1vh;
+  margin: 0vh 1vh;
+  display: flex;
+  font-size: 12px;
+  font-weight: 500;
+  justify-content: space-between;
+}
